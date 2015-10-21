@@ -10,6 +10,7 @@ from nltk.corpus import stopwords # Import the stop word list
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import HashingVectorizer
 
+#test
 class parser():
     def __init__(self,_dataPath):
         self.data_path = _dataPath
